@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import ContactModal from "@/components/ContactModal";
 import heroImage from "@/assets/ai-hero-bg.jpg";
 
 const Hero = () => {
@@ -32,6 +33,8 @@ const Hero = () => {
             >
               Khám Phá Ngay 🚀
             </Button>
+            
+            <ContactModal />
             
             <Button 
               variant="outline" 
